@@ -1,0 +1,36 @@
+{
+  "name": "1dv610-workshop-1",
+  "version": "1.0.0",
+  "description": "1dv610 - Workshop 1",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon --inspect index.js",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FredrikJurgell/workshop1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "@lnu"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.6",
+    "eslint": "^8.23.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/FredrikJurgell/workshop1"
+  },
+  "homepage": "https://github.com/FredrikJurgell/workshop1"
+}
